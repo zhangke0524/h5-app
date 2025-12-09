@@ -12,6 +12,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    VanBreadcrumb: typeof import('vant/es')['Breadcrumb']
+    VanBreadcrumbItem: typeof import('vant/es')['BreadcrumbItem']
     VanButton: typeof import('vant/es')['Button']
   }
 }

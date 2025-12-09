@@ -4,6 +4,10 @@ const routes = [
   {
     path: '/',
     component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/alarmDetail',
+    component: () => import('../views/alarm-management/alarm-detail.vue')
   }
 ]
 
